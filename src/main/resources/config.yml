@@ -1,0 +1,19 @@
+Database:
+  hostname: localhost
+  port: 3306
+  database: 'identitycard'
+  user: root
+  password: ''
+Settings:
+  min-age: 10
+  max-age: 80
+  give-ic-item: true
+Item:
+  material: PAPER
+  name: '&aIdentity Card'
+  lore:
+    - '&7Name: %name%'
+    - '&7Surname: %surname%'
+    - '&7Age: %age%'
+    - '&7Gender: %gender%'
+  glowing: true

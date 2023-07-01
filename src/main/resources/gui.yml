@@ -1,0 +1,64 @@
+GUI:
+  SetupGUI:
+    title: '&8Create your identity'
+    slots: 9
+    Items:
+      male:
+        name: '&b&lMale'
+        material: LIGHT_BLUE_CONCRETE
+        slot: 0
+        glowing: false
+        lore: {}
+      female:
+        name: '&d&lFemale'
+        material: PINK_CONCRETE
+        slot: 1
+        glowing: false
+        lore: {}
+      age:
+        name: '&e&lAge'
+        material: BLAZE_ROD
+        slot: 2
+        glowing: false
+        lore: {}
+      name:
+        name: '&a&lName'
+        material: IRON_INGOT
+        slot: 3
+        glowing: false
+        lore: {}
+      surname:
+        name: '&a&lSurname'
+        material: GOLD_INGOT
+        slot: 4
+        glowing: false
+        lore: {}
+      done:
+        name: '&c&lDone'
+        material: RED_WOOL
+        slot: 8
+        glowing: true
+        lore: {}
+  AgeGUI:
+    title: '&8Choose your age'
+    slots: 9
+    Items:
+      decrease:
+        name: '&c&lRemove 2'
+        material: RED_WOOL
+        slot: 3
+        glowing: false
+        lore: {}
+      done:
+        name: '&6&lDone'
+        material: EMERALD_BLOCK
+        slot: 4
+        glowing: false
+        lore:
+          - '&7Currently selected age: &a%age%'
+      increase:
+        name: '&a&lAdd 1'
+        material: LIME_WOOL
+        slot: 5
+        glowing: false
+        lore: {}

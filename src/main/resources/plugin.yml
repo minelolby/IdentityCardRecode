@@ -1,0 +1,13 @@
+name: IdentityCard
+version: '$1.5-SNAPSHOT'
+main: me.github.com.IdentityCardPlugin
+api-version: 1.13
+softdepend:
+  - PlaceholderAPI
+commands:
+  aic:
+    aliases:
+      - adminidentitycard
+  ic:
+    aliases:
+      - identitycard

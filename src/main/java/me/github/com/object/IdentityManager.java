@@ -144,7 +144,7 @@ public class IdentityManager {
             if(rs.next()){
                 int age = rs.getInt("age");
                 if(age == 0){
-                    return 10;
+                    return 18;
                 }
                 return rs.getInt("age");
             }
